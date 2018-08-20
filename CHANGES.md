@@ -14,6 +14,10 @@ New Features:
 * [#1176](https://github.com/ckeditor/ckeditor-dev/pull/1176): The [Balloon Panel](https://ckeditor.com/cke4/addon/balloonpanel) can be attached to selection instead of element.
 * [#1477](https://github.com/ckeditor/ckeditor-dev/issues/1477): Fixed: [Balloon Toolbar](https://ckeditor.com/cke4/addon/balloontoolbar) on destroy doesn't destroy its content.
 
+Fixed Issues:
+
+* [#724](https://github.com/ckeditor/ckeditor-dev/issues/724): Fixed: Dragged text was removed from editor and error appeared in the console.
+
 API Changes:
 
 * [#2224](https://github.com/ckeditor/ckeditor-dev/issues/2224):  The [`CKEDITOR.tools.convertToPx`](https://docs.ckeditor.com/ckeditor4/latest/api/CKEDITOR_tools.html#method-convertToPx) function now converts negative values.
