@@ -13,6 +13,7 @@ New Features:
 * [#651](https://github.com/ckeditor/ckeditor-dev/issues/651): Text pasted using [Paste from Word](https://ckeditor.com/cke4/addon/pastefromword) preservers indentation in paragraphs.
 * [#1176](https://github.com/ckeditor/ckeditor-dev/pull/1176): The [Balloon Panel](https://ckeditor.com/cke4/addon/balloonpanel) can be attached to selection instead of element.
 * [#1477](https://github.com/ckeditor/ckeditor-dev/issues/1477): Fixed: [Balloon Toolbar](https://ckeditor.com/cke4/addon/balloontoolbar) on destroy doesn't destroy its content.
+* [#2277](https://github.com/ckeditor/ckeditor-dev/pull/2277): [Dialog](https://ckeditor.com/cke4/addon/dialog) field values can be customized with [`dialog_defaultValues`](https://docs.ckeditor.com/ckeditor4/latest/api/CKEDITOR_config.html#cfg-dialog_defaultValues) configuration option.
 
 API Changes:
 
