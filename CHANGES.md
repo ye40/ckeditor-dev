@@ -21,6 +21,10 @@ API Changes:
 	* [`tools.eventsBuffer`](https://docs.ckeditor.com/ckeditor4/latest/api/CKEDITOR_tools.html#method-eventsBuffer) has been extracted into [`tools.buffers.event`](https://docs.ckeditor.com/ckeditor4/latest/api/CKEDITOR_tools_buffers_event.html)
 	* [`tools.throttle`](https://docs.ckeditor.com/ckeditor4/latest/api/CKEDITOR_tools.html#method-throttle) has been extracted into [`tools.buffers.throttle`](https://docs.ckeditor.com/ckeditor4/latest/api/CKEDITOR_tools_buffers_throttle.html)
 
+Fixed Issues:
+
+* [#438](https://github.com/ckeditor/ckeditor-dev/pull/438): Fixed: Impossible to navigate between Editor, [Toolbar](https://ckeditor.com/cke4/addon/toolbar) and [Elements Path](https://ckeditor.com/cke4/addon/elementspath) using keyboard.
+
 ## CKEditor 4.10.1
 
 Fixed Issues:
