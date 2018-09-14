@@ -69,6 +69,7 @@
 		CKEDITOR.dialog.add( 'testDialog2', '%TEST_DIR%_assets/testdialog.js' );
 
 		instanceLoadedEvent.editor.addCommand( 'testDialogEmptyVal', new CKEDITOR.dialogCommand( 'testDialogEmptyVal' ) );
+		instanceLoadedEvent.editor.addCommand( 'testDialog1', new CKEDITOR.dialogCommand( 'testDialog1' ) );
 	} );
 
 	bender.editor = {
@@ -82,9 +83,6 @@
 	};
 
 	bender.test( {
-		setUp: function() {
-			this.editor.addCommand( 'testDialog1', new CKEDITOR.dialogCommand( 'testDialog1' ) );
-		},
 		'test open dialog from local': function() {
 			var ed = this.editor, tc = this;
 			ed.openDialog( 'testDialog1', function( dialog ) {
