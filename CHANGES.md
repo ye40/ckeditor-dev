@@ -3,6 +3,14 @@
 
 ## CKEditor 4.12
 
+Fixed Issues:
+
+* [#748](https://github.com/ckeditor/ckeditor-dev/issues/748): Fixed: scroll jumps when closing dialogs.
+
+API Changes:
+
+* [#2420](https://github.com/ckeditor/ckeditor-dev/issues/2420): Methods `CKEDITOR.editor.focus` and `CKEDITOR.editable.focus` can now be called with `preventScroll` option.
+
 ## CKEditor 4.11.2
 
 ## CKEditor 4.11.1
