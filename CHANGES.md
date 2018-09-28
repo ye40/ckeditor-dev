@@ -12,6 +12,7 @@ New Features:
 * [#706](https://github.com/ckeditor/ckeditor-dev/issues/706): Added different cursor style when selecting cells for [Table Selection](https://ckeditor.com/cke4/addon/tableselection) plugin.
 * [#651](https://github.com/ckeditor/ckeditor-dev/issues/651): Text pasted using [Paste from Word](https://ckeditor.com/cke4/addon/pastefromword) preservers indentation in paragraphs.
 * [#1176](https://github.com/ckeditor/ckeditor-dev/pull/1176): The [Balloon Panel](https://ckeditor.com/cke4/addon/balloonpanel) can be attached to selection instead of element.
+* [#2008](https://github.com/ckeditor/ckeditor-dev/pull/2008): The [Autocomplete](https://ckeditor.com/cke4/addon/autocomplete) and [Mentions](https://ckeditor.com/cke4/addon/mentions) plugins exposes `followingSpace` configuration option allowing to put space after inserted match. See `followingSpace` configuration option for [Autocomplete](https://ckeditor.com/docs/ckeditor4/latest/api/CKEDITOR_plugins_autocomplete_configDefinition.html#property-followingSpace) and [Mentions](https://ckeditor.com/docs/ckeditor4/latest/api/CKEDITOR_plugins_mentions_configDefinition.html#property-followingSpace).
 
 Fixed Issues:
 
