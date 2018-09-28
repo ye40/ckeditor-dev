@@ -132,7 +132,8 @@
 			itemTemplate: config.itemTemplate,
 			outputTemplate: config.outputTemplate,
 			throttle: this.throttle,
-			itemsLimit: config.itemsLimit
+			itemsLimit: config.itemsLimit,
+			followingSpace: this.followingSpace
 		} );
 	}
 
@@ -457,6 +458,6 @@
 
 	/**
 	 * @inheritdoc CKEDITOR.plugins.autocomplete#followingSpace
-	 * @property {Number} [itemsLimit]
+	 * @property {Boolean} [followingSpace]
 	 */
 } )();
