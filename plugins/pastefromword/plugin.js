@@ -5,7 +5,13 @@
 
 ( function() {
 	CKEDITOR.plugins.add( 'pastefromword', {
-		requires: 'uberpaste'
+		requires: 'uberpaste',
+		init: function( editor ) {
+			editor.once( 'pluginsLoaded', function() {
+				// Create an alias for `pastefromword` command.
+				editor.addCommand( 'pastefromword', editor.getCommand( 'uberpaste' ) );
+			} );
+		}
 	} );
 
 } )();
