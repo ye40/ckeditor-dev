@@ -16,7 +16,6 @@
 
 } )();
 
-
 /**
  * Whether to prompt the user about the clean up of content being pasted from Microsoft Word.
  *
