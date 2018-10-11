@@ -566,7 +566,7 @@
 			wait();
 		},
 
-		// (#2194)
+		// (#2474)
 		'test editor change event': function() {
 			var editor = this.editors.standard,
 				ac = new CKEDITOR.plugins.autocomplete( editor, configDefinition ),
