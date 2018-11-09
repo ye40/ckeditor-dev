@@ -16,7 +16,7 @@ New Features:
 Fixed Issues:
 
 * [#1477](https://github.com/ckeditor/ckeditor-dev/issues/1477): Fixed: [Balloon Toolbar](https://ckeditor.com/cke4/addon/balloontoolbar) on destroy doesn't destroy its content.
-* [#2395](https://github.com/ckeditor/ckeditor-dev/issues/2395) Fixed: focused input in dialog is scrolled out of viewport when soft keyboard appears.
+* [#2395](https://github.com/ckeditor/ckeditor-dev/issues/2395) Fixed: focused input in [dialog](https://ckeditor.com/cke4/addon/dialog) is scrolled out of viewport when soft keyboard appears.
 
 API Changes:
 
