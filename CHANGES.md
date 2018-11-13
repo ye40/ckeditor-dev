@@ -3,6 +3,14 @@
 
 ## CKEditor 4.12
 
+New Features:
+
+* [#2598](https://github.com/ckeditor/ckeditor-dev/issues/2598): [Page Break](https://ckeditor.com/cke4/addon/pagebreak) feature support for [Paste from Word](https://ckeditor.com/cke4/addon/pastefromword) plugin.
+
+API Changes:
+
+* [#2598](https://github.com/ckeditor/ckeditor-dev/issues/2598): Added [`CKEDITOR.plugins.pagebreak.createElement`](https://ckeditor.com/docs/ckeditor4/latest/api/CKEDITOR_plugins_pagebreak.html#method-createElement) method allowing to create [Page Break](https://ckeditor.com/cke4/addon/pagebreak) plugin [`CKEDITOR.dom.element`](https://ckeditor.com/docs/ckeditor4/latest/api/CKEDITOR_dom_element.html) instance.
+
 ## CKEditor 4.11.2
 
 ## CKEditor 4.11.1
