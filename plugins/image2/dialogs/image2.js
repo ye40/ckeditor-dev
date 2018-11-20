@@ -537,7 +537,30 @@ CKEDITOR.dialog.add( 'image2', function( editor ) {
 						type: 'file',
 						id: 'upload',
 						label: lang.btnUpload,
-						style: 'height:40px'
+						style: 'height:40px',
+						setup: function (widget) {
+                            var ths = this;
+                            editor.on('fileUploadRequest', function (evt) {
+                                var fileLoader = evt.data.fileLoader;
+                                fileLoader.on('update', function () {
+                                    var uploadTotal = fileLoader.uploadTotal;
+                                    if (uploadTotal) {
+                                        var fileSizeMB = "File size：" + (uploadTotal / 1024 / 1024).toFixed(2).toString() + "MB";
+                                        var uploaded = fileLoader.uploaded;
+                                        var percent = Math.floor(uploaded / uploadTotal * 100);
+                                        var percentText = fileSizeMB + " " + lang.btnUpload + percent.toString() + "%";
+											ths.setLabel(percentText);
+                                        if (percent == 100) {
+                                            ths.setLabel(percentText);
+                                            ths.setLabel("Image processing ...");
+                                        }
+                                    }
+                                    if (fileLoader.isFinished()) {
+                                        ths.setLabel(lang.btnUpload);
+                                    }
+                                });
+                            });
+                        }
 					},
 					{
 						type: 'fileButton',
